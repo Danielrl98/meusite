@@ -27,7 +27,8 @@
 .menu-button-container {
   display: none;
   height: 100%;
-  width: 5px;
+  width: 30px;
+  z-index: 2;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +43,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #8A8A8A;
+  background-color: #fff;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -79,8 +80,8 @@
     display: flex;
   }
   .menu {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 5%;
     margin-top: 50px;
     left: 0;
     flex-direction: column;
@@ -109,6 +110,9 @@
     width: 100%;
     color: white;
     background-color: #222;
+  }
+  .menu > li > a{
+    color: white;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
