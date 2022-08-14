@@ -1,17 +1,13 @@
-.home {
-    
-    background: url('/src/pages/Home/assets/img/banner.jpg');
+.home { 
+    background: url('/src/pages/Home/assets/img/banner.webp');
     background-repeat: no-repeat;
     background-size: 100%;
-   
 }
 .home .container{
     display: grid;
     grid-template-columns:  1fr 65%;
     background-color: rgba(0, 0, 0, 0.048);
 }
-
-/*tablet*/
 @media(max-width:990px){
     .home{
         display: flex;
@@ -24,12 +20,9 @@
     flex-direction: column;  
     justify-content: center;
 }
-
-
 .home .grid-two .title{
     padding: 3em;
-    margin: 6em;
-   
+    margin: 6em; 
 }
 .home .grid-two h1{
     color: #DB0C14;
@@ -58,7 +51,6 @@
     align-items: center;
     padding-top: 20em;
     padding-bottom: 20em;
-
 }
 
 @media(max-width: 990px){
@@ -77,13 +69,11 @@
         align-items: center;
         padding-top: 5em;
     }
-    .home .grid-two h1{
-        
+    .home .grid-two h1{   
         font-size: 40px;   
         text-align: center;
     }
-    .home .grid-two .title{
-       
+    .home .grid-two .title{ 
         padding: 2em;
         margin: 2em;
         -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1); 
@@ -99,21 +89,13 @@
         color: #202020;
         padding-top: 1em;
         font-size: 17px;
-        text-align: center;
-        
+        text-align: center;  
     }
     .home .grid-two a{
         
         padding: 20px 30px 20px 30px;
-        width: 100%;
-        
+        width: 100%;  
     }
-    .home .grid-two button{
-        
-        
-        
-    }
-
 }
 @media(max-width: 590px){
     .home .grid-two h1{ 
