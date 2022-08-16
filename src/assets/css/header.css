@@ -12,7 +12,6 @@
         margin: 0;
     }
 }
-
 .header-main{
     position: fixed;
     top:0;
@@ -41,7 +40,6 @@
     padding-right: 2em;
     position: absolute;
     right: 5%;
-    
 }
 .nav-mobile{
     display: none;
