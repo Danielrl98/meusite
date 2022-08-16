@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
-
 *{
     padding: 0;
     box-sizing: border-box;
     max-width: 1600px;
     margin: auto;
     font-family: 'Poppins',sans-serif;
-    font-display: auto;
+    font-display: optional;
 }
 @media(max-width:990px){
     *{

@@ -10,7 +10,7 @@ lerna-debug.log*
 
 teste
 pem
-
+node_modules
 dist
 dist-ssr
 *.local
