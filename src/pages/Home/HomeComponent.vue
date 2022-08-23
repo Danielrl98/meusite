@@ -1,21 +1,18 @@
 <template>
-    <section class="home">
-        <main class="container">
-            <div class="grid-one">       
-            </div>
-            <div class="grid-two">
-                <div class="title">
-                    <h1>Criação de site personalizado para seu négocio</h1>
-                    <p>Desenvolvimento de site com um design moderno, atrativo, responsivo e pronto para indexar no google.</p>
-                    <a href="https://google.com">Entrar em contato</a>
-                </div>
-            </div>
-        </main>
-    </section>
+    <div>
+        <DashboardComponent />
+        <DiferenciaisComponent />
+    </div>
 </template>
 <script>
+import DashboardComponent from './DashboardComponent.vue'
+import DiferenciaisComponent from './DiferenciaisComponent.vue'
 export default {
-    name: 'HomeComponent'
+    name: 'HomeComponent',
+    components:{
+       DashboardComponent,
+       DiferenciaisComponent
+    }
 }
 </script>
-<style src="./assets/css/home.css" scoped></style>
+<style src="/src/assets/css/home.css"></style>

@@ -1,0 +1,8 @@
+.botaowhats{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+.botaowhats img{
+    width:60px
+}
