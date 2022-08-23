@@ -2,16 +2,19 @@
     <div>
         <DashboardComponent />
         <DiferenciaisComponent />
+        <SobreComponent />
     </div>
 </template>
 <script>
 import DashboardComponent from './DashboardComponent.vue'
 import DiferenciaisComponent from './DiferenciaisComponent.vue'
+import SobreComponent from './SobreComponent.vue'
 export default {
     name: 'HomeComponent',
     components:{
        DashboardComponent,
-       DiferenciaisComponent
+       DiferenciaisComponent,
+       SobreComponent
     }
 }
 </script>
